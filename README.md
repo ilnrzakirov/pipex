@@ -10,9 +10,9 @@ their parameters. </br>
 <br>The execution of the pipex program should do the same as the next shell command: </br>
 <br>$> < file1 cmd1 | cmd2 > file2 </br>
 <br>III.1 Examples </br>
-<br>$> ./pipex infile ``ls -l'' ``wc -l'' outfile </br>
+<br>$> ./pipex infile "ls -l" "wc -l" outfile </br>
 <br>should be the same as “< infile ls -l | wc -l > outfile” </br>
-<br>$> ./pipex infile ``grep a1'' ``wc -w'' outfile </br>
+<br>$> ./pipex infile "grep a1" "wc -w" outfile </br>
 <br>should be the same as “< infile grep a1 | wc -w > outfile” </br>
 
 <br> • Handle multiple pipes </br>
