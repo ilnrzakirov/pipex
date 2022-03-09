@@ -1,6 +1,7 @@
 # pipex
 behavior of the pipe function
 
+For detailed information, refer to the **[subject of this project](https://github.com/ilnrzakirov/pipex/blob/main/en.subject.pdf)**
 
 <br> Your objective is to code the Pipex program. </br>
 <br>It should be executed in this way: </br>
